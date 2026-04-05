@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Collecte d'informations des AMEs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Bienvenue</h1>
+
+<div id="formulaire">
+    <p>Entrez votre nom :</p>
+    <input type="text" id="nom">
+
+    <br><br>
+
+    <p>Entrez vos prénoms dans l'ordre :</p>
+    <input type="text" id="prenoms">
+    
+    <br><br>
+    
+    <p>Titulaire du :</p>
+    <input type="text" id="cours">
+    
+    <br><br>
+    
+    <p>École d'intervention :</p>
+    <input type="text" id="ecole">
+    
+    <br><br>
+    
+    <p>Ancienneté :</p>
+    <input type="text" id="anciennete">
+    
+    <br><br>
+
+    <button onclick="afficherMessage()">VALIDER</button>
+</div>
+
+<p id="resultat"></p>
+
+<!-- Bouton caché au départ -->
+<button id="btnCertifier" style="display:none;" onclick="certifier()">
+    Je certifie exactes les informations sus-citées
+</button>
+
+<script src="script.js"></script>
+
+<div class="container">
+
+</body>
+</html>
+
